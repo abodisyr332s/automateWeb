@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>633</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-120</x>
+     <y>-20</y>
+     <width>441</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>assests/MyLogo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font-size:20px;
+text-align:center;
+qproperty-icon:url(&quot;assests/playButton.png&quot;);
+qproperty-iconSize: 40px;
+background-color:green;
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>بدء  </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shortCuts">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>360</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font-size:15px;
+text-align:center;
+
+
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>الاختصارات</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settingsbtn">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>360</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+font-size:15px;
+text-align:center;
+
+
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>الاعدادات</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
